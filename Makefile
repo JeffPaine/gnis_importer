@@ -25,7 +25,7 @@ original/all_gnis_data.txt: original/all_gnis_data.zip
 # http://geonames.usgs.gov/domestic/download_data.htm
 original/all_gnis_data.zip:
 	mkdir -p $(dir $@)
-	wget http://geonames.usgs.gov/docs/stategaz/NationalFile_20131020.zip --output-document=$@.download
+	wget http://geonames.usgs.gov/docs/stategaz/NationalFile_20130811.zip --output-document=$@.download
 	mv $@.download $@
 
 # Create database DATABASE_NAME and import features into table named FEATURES_TABLE_NAME
