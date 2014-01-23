@@ -1,5 +1,5 @@
 # gnis_importer
-A simple makefile to download the entire [Geographic Names Information System](http://nhd.usgs.gov/gnis.html) dataset and import it into a PostgreSQL database.
+A simple makefile to download the entire [Geographic Names Information System](http://nhd.usgs.gov/gnis.html) dataset and import it into a PostgreSQL database. Additional data available on the GNIS [download page](http://geonames.usgs.gov/domestic/download_data.htm).
 
 ## Why
 The GNIS contains the Federally recognized name and location data of roughly 2.2 million geographic features in the United States. This tool just makes it easier to download and access that data.
